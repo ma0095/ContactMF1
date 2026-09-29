@@ -1,0 +1,88 @@
+.table-container {
+  width: 90%;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.table-header h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+}
+
+.btn-add {
+  padding: 9px 18px;
+  border: none;
+  border-radius: 6px;
+  background-color: #0d6efd;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn-add:hover {
+  background-color: #0b5ed7;
+}
+
+.contact-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+
+.contact-table thead {
+  background-color: #f5f6f8;
+}
+
+.contact-table th {
+  padding: 14px 16px;
+  text-align: left;
+  font-weight: 600;
+  color: #555;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.contact-table td {
+  padding: 14px 16px;
+  border-bottom: 1px solid #e9ecef;
+  color: #333;
+}
+
+.contact-table tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+.contact-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* Status */
+
+.status {
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.status.active {
+  background-color: #d1e7dd;
+  color: #0f5132;
+}
+
+.status.inactive {
+  background-color: #f8d7da;
+  color: #842029;
+}
